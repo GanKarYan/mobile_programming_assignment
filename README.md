@@ -1,4 +1,4 @@
-# food_ninja_test
+# coin_memoria
 
 A new Flutter project.
 
