@@ -122,7 +122,9 @@ class _MainScreenState extends State<MainScreen> {
         ownerphone: ownerList[index]['ownerphone'],
         ownerlocation: ownerList[index]['ownerlocation'],
         ownerimages: ownerList[index]['ownerimages']);
-    Navigator.push(context,
-        MaterialPageRoute(builder: (BuildContext context) => CoinDetail(coins:coin)));
+    Navigator.push(
+        context,
+        MaterialPageRoute(
+            builder: (BuildContext context) => CoinDetail(coins: coin)));
   }
 }
