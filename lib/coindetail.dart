@@ -71,7 +71,6 @@ class _CoinDetailState extends State<CoinDetail> {
                             //onTap: () => _loadCoinDetail(index),
                             child: Column(
                           children: [
-//
                             SizedBox(
                               height: 5,
                             ),
